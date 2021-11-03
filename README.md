@@ -1,5 +1,7 @@
 # ClassModule
 Lua Module, I created this for roblox games, but I guess it's should work anywhere else.
+I'm not sure if everything is working correctly, because I have been doing this for a long time. I left it on the github only because I needed it so that I would not go to Roblox every time and copy this script from there.
+I hope this still works as well as it did then :3
 
 # How to use
 ```lua
