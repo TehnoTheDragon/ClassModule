@@ -63,6 +63,12 @@ function Class.extend(className, extendClass)
 			return ("(Object: %s) %s"):format(newObjectMetatable.__object, newObjectMetatable.__guid)
 		end
 		
+		for i,v in pairs(newClass) do
+			if i:find("__") then
+				newObjectMetatable[i] = v
+			end
+		end
+		
 		setmetatable(newObject, newObjectMetatable)
 		
 		newObject:init(...)
